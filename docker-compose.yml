@@ -1,0 +1,9 @@
+version: '3'
+services:
+  library-api:
+    build: .
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./data:/app/data
+    command: sh -c "npm run migrate && npm start"

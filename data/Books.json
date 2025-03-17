@@ -1,0 +1,992 @@
+[
+  {
+    "book_id": 1,
+    "books_count": 272,
+    "isbn": 439023483,
+    "authors": "Suzanne Collins",
+    "publication_year": 2008,
+    "title": "The Hunger Games (The Hunger Games, #1)",
+    "average_rating": 4.34,
+    "image_url": "https://images.gr-assets.com/books/1447303603m/2767052.jpg"
+  },
+  {
+    "book_id": 2,
+    "books_count": 491,
+    "isbn": 439554934,
+    "authors": "J.K. Rowling, Mary GrandPré",
+    "publication_year": 1997,
+    "title": "Harry Potter and the Sorcerer's Stone (Harry Potter, #1)",
+    "average_rating": 4.44,
+    "image_url": "https://images.gr-assets.com/books/1474154022m/3.jpg"
+  },
+  {
+    "book_id": 3,
+    "books_count": 226,
+    "isbn": 316015849,
+    "authors": "Stephenie Meyer",
+    "publication_year": 2005,
+    "title": "Twilight (Twilight, #1)",
+    "average_rating": 3.57,
+    "image_url": "https://images.gr-assets.com/books/1361039443m/41865.jpg"
+  },
+  {
+    "book_id": 4,
+    "books_count": 487,
+    "isbn": 61120081,
+    "authors": "Harper Lee",
+    "publication_year": 1960,
+    "title": "To Kill a Mockingbird",
+    "average_rating": 4.25,
+    "image_url": "https://images.gr-assets.com/books/1361975680m/2657.jpg"
+  },
+  {
+    "book_id": 5,
+    "books_count": 1356,
+    "isbn": 743273567,
+    "authors": "F. Scott Fitzgerald",
+    "publication_year": 1925,
+    "title": "The Great Gatsby",
+    "average_rating": 3.89,
+    "image_url": "https://images.gr-assets.com/books/1490528560m/4671.jpg"
+  },
+  {
+    "book_id": 6,
+    "books_count": 226,
+    "isbn": 525478817,
+    "authors": "John Green",
+    "publication_year": 2012,
+    "title": "The Fault in Our Stars",
+    "average_rating": 4.26,
+    "image_url": "https://images.gr-assets.com/books/1360206420m/11870085.jpg"
+  },
+  {
+    "book_id": 7,
+    "books_count": 969,
+    "isbn": 618260307,
+    "authors": "J.R.R. Tolkien",
+    "publication_year": 1937,
+    "title": "The Hobbit",
+    "average_rating": 4.25,
+    "image_url": "https://images.gr-assets.com/books/1372847500m/5907.jpg"
+  },
+  {
+    "book_id": 8,
+    "books_count": 360,
+    "isbn": 316769177,
+    "authors": "J.D. Salinger",
+    "publication_year": 1951,
+    "title": "The Catcher in the Rye",
+    "average_rating": 3.79,
+    "image_url": "https://images.gr-assets.com/books/1398034300m/5107.jpg"
+  },
+  {
+    "book_id": 9,
+    "books_count": 311,
+    "isbn": 1416524797,
+    "authors": "Dan Brown",
+    "publication_year": 2000,
+    "title": "Angels & Demons  (Robert Langdon, #1)",
+    "average_rating": 3.85,
+    "image_url": "https://images.gr-assets.com/books/1303390735m/960.jpg"
+  },
+  {
+    "book_id": 10,
+    "books_count": 3455,
+    "isbn": 679783261,
+    "authors": "Jane Austen",
+    "publication_year": 1813,
+    "title": "Pride and Prejudice",
+    "average_rating": 4.24,
+    "image_url": "https://images.gr-assets.com/books/1320399351m/1885.jpg"
+  },
+  {
+    "book_id": 11,
+    "books_count": 283,
+    "isbn": 1594480001,
+    "authors": "Khaled Hosseini",
+    "publication_year": 2003,
+    "title": "The Kite Runner",
+    "average_rating": 4.26,
+    "image_url": "https://images.gr-assets.com/books/1484565687m/77203.jpg"
+  },
+  {
+    "book_id": 12,
+    "books_count": 210,
+    "isbn": 62024035,
+    "authors": "Veronica Roth",
+    "publication_year": 2011,
+    "title": "Divergent (Divergent, #1)",
+    "average_rating": 4.24,
+    "image_url": "https://images.gr-assets.com/books/1328559506m/13335037.jpg"
+  },
+  {
+    "book_id": 13,
+    "books_count": 995,
+    "isbn": 451524934,
+    "authors": "George Orwell, Erich Fromm, Celâl Üster",
+    "publication_year": 1949,
+    "title": 1984,
+    "average_rating": 4.14,
+    "image_url": "https://images.gr-assets.com/books/1348990566m/5470.jpg"
+  },
+  {
+    "book_id": 14,
+    "books_count": 896,
+    "isbn": 452284244,
+    "authors": "George Orwell",
+    "publication_year": 1945,
+    "title": "Animal Farm",
+    "average_rating": 3.87,
+    "image_url": "https://images.gr-assets.com/books/1424037542m/7613.jpg"
+  },
+  {
+    "book_id": 15,
+    "books_count": 710,
+    "isbn": 553296981,
+    "authors": "Anne Frank, Eleanor Roosevelt, B.M. Mooyaart-Doubleday",
+    "publication_year": 1947,
+    "title": "The Diary of a Young Girl",
+    "average_rating": 4.1,
+    "image_url": "https://images.gr-assets.com/books/1358276407m/48855.jpg"
+  },
+  {
+    "book_id": 16,
+    "books_count": 274,
+    "isbn": 307269752,
+    "authors": "Stieg Larsson, Reg Keeland",
+    "publication_year": 2005,
+    "title": "The Girl with the Dragon Tattoo (Millennium, #1)",
+    "average_rating": 4.11,
+    "image_url": "https://images.gr-assets.com/books/1327868566m/2429135.jpg"
+  },
+  {
+    "book_id": 17,
+    "books_count": 201,
+    "isbn": 439023491,
+    "authors": "Suzanne Collins",
+    "publication_year": 2009,
+    "title": "Catching Fire (The Hunger Games, #2)",
+    "average_rating": 4.3,
+    "image_url": "https://images.gr-assets.com/books/1358273780m/6148028.jpg"
+  },
+  {
+    "book_id": 18,
+    "books_count": 376,
+    "isbn": "043965548X",
+    "authors": "J.K. Rowling, Mary GrandPré, Rufus Beck",
+    "publication_year": 1999,
+    "title": "Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)",
+    "average_rating": 4.53,
+    "image_url": "https://images.gr-assets.com/books/1499277281m/5.jpg"
+  },
+  {
+    "book_id": 19,
+    "books_count": 566,
+    "isbn": 618346252,
+    "authors": "J.R.R. Tolkien",
+    "publication_year": 1954,
+    "title": "The Fellowship of the Ring (The Lord of the Rings, #1)",
+    "average_rating": 4.34,
+    "image_url": "https://images.gr-assets.com/books/1298411339m/34.jpg"
+  },
+  {
+    "book_id": 20,
+    "books_count": 239,
+    "isbn": 439023513,
+    "authors": "Suzanne Collins",
+    "publication_year": 2010,
+    "title": "Mockingjay (The Hunger Games, #3)",
+    "average_rating": 4.03,
+    "image_url": "https://images.gr-assets.com/books/1358275419m/7260188.jpg"
+  },
+  {
+    "book_id": 21,
+    "books_count": 307,
+    "isbn": 439358078,
+    "authors": "J.K. Rowling, Mary GrandPré",
+    "publication_year": 2003,
+    "title": "Harry Potter and the Order of the Phoenix (Harry Potter, #5)",
+    "average_rating": 4.46,
+    "image_url": "https://images.gr-assets.com/books/1387141547m/2.jpg"
+  },
+  {
+    "book_id": 22,
+    "books_count": 183,
+    "isbn": 316166685,
+    "authors": "Alice Sebold",
+    "publication_year": 2002,
+    "title": "The Lovely Bones",
+    "average_rating": 3.77,
+    "image_url": "https://images.gr-assets.com/books/1457810586m/12232938.jpg"
+  },
+  {
+    "book_id": 23,
+    "books_count": 398,
+    "isbn": 439064864,
+    "authors": "J.K. Rowling, Mary GrandPré",
+    "publication_year": 1998,
+    "title": "Harry Potter and the Chamber of Secrets (Harry Potter, #2)",
+    "average_rating": 4.37,
+    "image_url": "https://images.gr-assets.com/books/1474169725m/15881.jpg"
+  },
+  {
+    "book_id": 24,
+    "books_count": 332,
+    "isbn": 439139600,
+    "authors": "J.K. Rowling, Mary GrandPré",
+    "publication_year": 2000,
+    "title": "Harry Potter and the Goblet of Fire (Harry Potter, #4)",
+    "average_rating": 4.53,
+    "image_url": "https://images.gr-assets.com/books/1361482611m/6.jpg"
+  },
+  {
+    "book_id": 25,
+    "books_count": 263,
+    "isbn": 545010225,
+    "authors": "J.K. Rowling, Mary GrandPré",
+    "publication_year": 2007,
+    "title": "Harry Potter and the Deathly Hallows (Harry Potter, #7)",
+    "average_rating": 4.61,
+    "image_url": "https://images.gr-assets.com/books/1474171184m/136251.jpg"
+  },
+  {
+    "book_id": 26,
+    "books_count": 350,
+    "isbn": 307277674,
+    "authors": "Dan Brown",
+    "publication_year": 2003,
+    "title": "The Da Vinci Code (Robert Langdon, #2)",
+    "average_rating": 3.79,
+    "image_url": "https://images.gr-assets.com/books/1303252999m/968.jpg"
+  },
+  {
+    "book_id": 27,
+    "books_count": 275,
+    "isbn": 439785960,
+    "authors": "J.K. Rowling, Mary GrandPré",
+    "publication_year": 2005,
+    "title": "Harry Potter and the Half-Blood Prince (Harry Potter, #6)",
+    "average_rating": 4.54,
+    "image_url": "https://images.gr-assets.com/books/1361039191m/1.jpg"
+  },
+  {
+    "book_id": 28,
+    "books_count": 458,
+    "isbn": 140283331,
+    "authors": "William Golding",
+    "publication_year": 1954,
+    "title": "Lord of the Flies",
+    "average_rating": 3.64,
+    "image_url": "https://images.gr-assets.com/books/1327869409m/7624.jpg"
+  },
+  {
+    "book_id": 29,
+    "books_count": 1937,
+    "isbn": 743477111,
+    "authors": "William Shakespeare, Robert Jackson",
+    "publication_year": 1595,
+    "title": "Romeo and Juliet",
+    "average_rating": 3.73,
+    "image_url": "https://images.gr-assets.com/books/1327872146m/18135.jpg"
+  },
+  {
+    "book_id": 30,
+    "books_count": 196,
+    "isbn": 297859382,
+    "authors": "Gillian Flynn",
+    "publication_year": 2012,
+    "title": "Gone Girl",
+    "average_rating": 4.03,
+    "image_url": "https://images.gr-assets.com/books/1339602131m/8442457.jpg"
+  },
+  {
+    "book_id": 31,
+    "books_count": 183,
+    "isbn": 399155341,
+    "authors": "Kathryn Stockett",
+    "publication_year": 2009,
+    "title": "The Help",
+    "average_rating": 4.45,
+    "image_url": "https://images.gr-assets.com/books/1346100365m/4667024.jpg"
+  },
+  {
+    "book_id": 32,
+    "books_count": 373,
+    "isbn": 142000671,
+    "authors": "John Steinbeck",
+    "publication_year": 1937,
+    "title": "Of Mice and Men",
+    "average_rating": 3.84,
+    "image_url": "https://images.gr-assets.com/books/1437235233m/890.jpg"
+  },
+  {
+    "book_id": 33,
+    "books_count": 220,
+    "isbn": 739326228,
+    "authors": "Arthur Golden",
+    "publication_year": 1997,
+    "title": "Memoirs of a Geisha",
+    "average_rating": 4.08,
+    "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+  },
+  {
+    "book_id": 34,
+    "books_count": 169,
+    "isbn": 1612130291,
+    "authors": "E.L. James",
+    "publication_year": 2011,
+    "title": "Fifty Shades of Grey (Fifty Shades, #1)",
+    "average_rating": 3.67,
+    "image_url": "https://images.gr-assets.com/books/1385207843m/10818853.jpg"
+  },
+  {
+    "book_id": 35,
+    "books_count": 458,
+    "isbn": 61122416,
+    "authors": "Paulo Coelho, Alan R. Clarke",
+    "publication_year": 1988,
+    "title": "The Alchemist",
+    "average_rating": 3.82,
+    "image_url": "https://images.gr-assets.com/books/1483412266m/865.jpg"
+  },
+  {
+    "book_id": 36,
+    "books_count": 192,
+    "isbn": 385732554,
+    "authors": "Lois Lowry",
+    "publication_year": 1993,
+    "title": "The Giver (The Giver, #1)",
+    "average_rating": 4.12,
+    "image_url": "https://images.gr-assets.com/books/1342493368m/3636.jpg"
+  },
+  {
+    "book_id": 37,
+    "books_count": 474,
+    "isbn": 60764899,
+    "authors": "C.S. Lewis",
+    "publication_year": 1950,
+    "title": "The Lion, the Witch, and the Wardrobe (Chronicles of Narnia, #1)",
+    "average_rating": 4.19,
+    "image_url": "https://images.gr-assets.com/books/1353029077m/100915.jpg"
+  },
+  {
+    "book_id": 38,
+    "books_count": 167,
+    "isbn": 965818675,
+    "authors": "Audrey Niffenegger",
+    "publication_year": 2003,
+    "title": "The Time Traveler's Wife",
+    "average_rating": 3.95,
+    "image_url": "https://images.gr-assets.com/books/1437728815m/14050.jpg"
+  },
+  {
+    "book_id": 39,
+    "books_count": 101,
+    "isbn": 553588486,
+    "authors": "George R.R. Martin",
+    "publication_year": 1996,
+    "title": "A Game of Thrones (A Song of Ice and Fire, #1)",
+    "average_rating": 4.45,
+    "image_url": "https://images.gr-assets.com/books/1436732693m/13496.jpg"
+  },
+  {
+    "book_id": 40,
+    "books_count": 185,
+    "isbn": 143038419,
+    "authors": "Elizabeth Gilbert",
+    "publication_year": 2006,
+    "title": "Eat, Pray, Love",
+    "average_rating": 3.51,
+    "image_url": "https://images.gr-assets.com/books/1503066414m/19501.jpg"
+  },
+  {
+    "book_id": 41,
+    "books_count": 159,
+    "isbn": 786838655,
+    "authors": "Rick Riordan",
+    "publication_year": 2005,
+    "title": "The Lightning Thief (Percy Jackson and the Olympians, #1)",
+    "average_rating": 4.23,
+    "image_url": "https://images.gr-assets.com/books/1400602609m/28187.jpg"
+  },
+  {
+    "book_id": 42,
+    "books_count": 1707,
+    "isbn": 451529308,
+    "authors": "Louisa May Alcott",
+    "publication_year": 1868,
+    "title": "Little Women (Little Women, #1)",
+    "average_rating": 4.04,
+    "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+  },
+  {
+    "book_id": 43,
+    "books_count": 2568,
+    "isbn": 142437204,
+    "authors": "Charlotte Brontë, Michael Mason",
+    "publication_year": 1847,
+    "title": "Jane Eyre",
+    "average_rating": 4.1,
+    "image_url": "https://images.gr-assets.com/books/1327867269m/10210.jpg"
+  },
+  {
+    "book_id": 44,
+    "books_count": 190,
+    "isbn": 553816713,
+    "authors": "Nicholas Sparks",
+    "publication_year": 1996,
+    "title": "The Notebook (The Notebook, #1)",
+    "average_rating": 4.06,
+    "image_url": "https://images.gr-assets.com/books/1385738917m/15931.jpg"
+  },
+  {
+    "book_id": 45,
+    "books_count": 264,
+    "isbn": 770430074,
+    "authors": "Yann Martel",
+    "publication_year": 2001,
+    "title": "Life of Pi",
+    "average_rating": 3.88,
+    "image_url": "https://images.gr-assets.com/books/1320562005m/4214.jpg"
+  },
+  {
+    "book_id": 46,
+    "books_count": 128,
+    "isbn": 1565125606,
+    "authors": "Sara Gruen",
+    "publication_year": 2006,
+    "title": "Water for Elephants",
+    "average_rating": 4.07,
+    "image_url": "https://images.gr-assets.com/books/1494428973m/43641.jpg"
+  },
+  {
+    "book_id": 47,
+    "books_count": 251,
+    "isbn": 375831002,
+    "authors": "Markus Zusak",
+    "publication_year": 2005,
+    "title": "The Book Thief",
+    "average_rating": 4.36,
+    "image_url": "https://images.gr-assets.com/books/1390053681m/19063.jpg"
+  },
+  {
+    "book_id": 48,
+    "books_count": 507,
+    "isbn": 307347974,
+    "authors": "Ray Bradbury",
+    "publication_year": 1953,
+    "title": "Fahrenheit 451",
+    "average_rating": 3.97,
+    "image_url": "https://images.gr-assets.com/books/1351643740m/4381.jpg"
+  },
+  {
+    "book_id": 49,
+    "books_count": 194,
+    "isbn": 316160199,
+    "authors": "Stephenie Meyer",
+    "publication_year": 2006,
+    "title": "New Moon (Twilight, #2)",
+    "average_rating": 3.52,
+    "image_url": "https://images.gr-assets.com/books/1361039440m/49041.jpg"
+  },
+  {
+    "book_id": 50,
+    "books_count": 45,
+    "isbn": 60513039,
+    "authors": "Shel Silverstein",
+    "publication_year": 1974,
+    "title": "Where the Sidewalk Ends",
+    "average_rating": 4.29,
+    "image_url": "https://images.gr-assets.com/books/1168052448m/30119.jpg"
+  },
+  {
+    "book_id": 51,
+    "books_count": 178,
+    "isbn": 1416914285,
+    "authors": "Cassandra Clare",
+    "publication_year": 2007,
+    "title": "City of Bones (The Mortal Instruments, #1)",
+    "average_rating": 4.12,
+    "image_url": "https://images.gr-assets.com/books/1432730315m/256683.jpg"
+  },
+  {
+    "book_id": 52,
+    "books_count": 185,
+    "isbn": 316160202,
+    "authors": "Stephenie Meyer",
+    "publication_year": 2007,
+    "title": "Eclipse (Twilight, #3)",
+    "average_rating": 3.69,
+    "image_url": "https://images.gr-assets.com/books/1361038355m/428263.jpg"
+  },
+  {
+    "book_id": 53,
+    "books_count": 217,
+    "isbn": 375826696,
+    "authors": "Christopher Paolini",
+    "publication_year": 2002,
+    "title": "Eragon (The Inheritance Cycle, #1)",
+    "average_rating": 3.86,
+    "image_url": "https://images.gr-assets.com/books/1366212852m/113436.jpg"
+  },
+  {
+    "book_id": 54,
+    "books_count": 257,
+    "isbn": 345391802,
+    "authors": "Douglas Adams",
+    "publication_year": 1979,
+    "title": "The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)",
+    "average_rating": 4.2,
+    "image_url": "https://images.gr-assets.com/books/1327656754m/11.jpg"
+  },
+  {
+    "book_id": 55,
+    "books_count": 515,
+    "isbn": 60929871,
+    "authors": "Aldous Huxley",
+    "publication_year": 1932,
+    "title": "Brave New World",
+    "average_rating": 3.97,
+    "image_url": "https://images.gr-assets.com/books/1487389574m/5129.jpg"
+  },
+  {
+    "book_id": 56,
+    "books_count": 183,
+    "isbn": "031606792X",
+    "authors": "Stephenie Meyer",
+    "publication_year": 2008,
+    "title": "Breaking Dawn (Twilight, #4)",
+    "average_rating": 3.7,
+    "image_url": "https://images.gr-assets.com/books/1361039438m/1162543.jpg"
+  },
+  {
+    "book_id": 57,
+    "books_count": 125,
+    "isbn": 142001740,
+    "authors": "Sue Monk Kidd",
+    "publication_year": 2001,
+    "title": "The Secret Life of Bees",
+    "average_rating": 4.01,
+    "image_url": "https://images.gr-assets.com/books/1473454532m/37435.jpg"
+  },
+  {
+    "book_id": 58,
+    "books_count": 2277,
+    "isbn": 142437174,
+    "authors": "Mark Twain, John Seelye, Guy Cardwell",
+    "publication_year": 1884,
+    "title": "The Adventures of Huckleberry Finn",
+    "average_rating": 3.8,
+    "image_url": "https://images.gr-assets.com/books/1405973850m/2956.jpg"
+  },
+  {
+    "book_id": 59,
+    "books_count": 180,
+    "isbn": 64410935,
+    "authors": "E.B. White, Garth Williams, Rosemary Wells",
+    "publication_year": 1952,
+    "title": "Charlotte's Web",
+    "average_rating": 4.15,
+    "image_url": "https://images.gr-assets.com/books/1439632243m/24178.jpg"
+  },
+  {
+    "book_id": 60,
+    "books_count": 183,
+    "isbn": 1400032717,
+    "authors": "Mark Haddon",
+    "publication_year": 2003,
+    "title": "The Curious Incident of the Dog in the Night-Time",
+    "average_rating": 3.85,
+    "image_url": "https://images.gr-assets.com/books/1479863624m/1618.jpg"
+  },
+  {
+    "book_id": 61,
+    "books_count": 14,
+    "isbn": 1594633665,
+    "authors": "Paula Hawkins",
+    "publication_year": 2015,
+    "title": "The Girl on the Train",
+    "average_rating": 3.88,
+    "image_url": "https://images.gr-assets.com/books/1490903702m/22557272.jpg"
+  },
+  {
+    "book_id": 62,
+    "books_count": 287,
+    "isbn": 679879242,
+    "authors": "Philip Pullman",
+    "publication_year": 1995,
+    "title": "The Golden Compass (His Dark Materials, #1)",
+    "average_rating": 3.94,
+    "image_url": "https://images.gr-assets.com/books/1451271747m/119322.jpg"
+  },
+  {
+    "book_id": 63,
+    "books_count": 2498,
+    "isbn": 393978893,
+    "authors": "Emily Brontë, Richard J. Dunn",
+    "publication_year": 1847,
+    "title": "Wuthering Heights",
+    "average_rating": 3.82,
+    "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+  },
+  {
+    "book_id": 64,
+    "books_count": 125,
+    "isbn": 743454537,
+    "authors": "Jodi Picoult",
+    "publication_year": 2004,
+    "title": "My Sister's Keeper",
+    "average_rating": 4.06,
+    "image_url": "https://images.gr-assets.com/books/1369504683m/10917.jpg"
+  },
+  {
+    "book_id": 65,
+    "books_count": 241,
+    "isbn": 385333846,
+    "authors": "Kurt Vonnegut Jr.",
+    "publication_year": 1969,
+    "title": "Slaughterhouse-Five",
+    "average_rating": 4.06,
+    "image_url": "https://images.gr-assets.com/books/1440319389m/4981.jpg"
+  },
+  {
+    "book_id": 66,
+    "books_count": 409,
+    "isbn": 446675539,
+    "authors": "Margaret Mitchell",
+    "publication_year": 1936,
+    "title": "Gone with the Wind",
+    "average_rating": 4.28,
+    "image_url": "https://images.gr-assets.com/books/1328025229m/18405.jpg"
+  },
+  {
+    "book_id": 67,
+    "books_count": 197,
+    "isbn": 1594489505,
+    "authors": "Khaled Hosseini",
+    "publication_year": 2007,
+    "title": "A Thousand Splendid Suns",
+    "average_rating": 4.34,
+    "image_url": "https://images.gr-assets.com/books/1345958969m/128029.jpg"
+  },
+  {
+    "book_id": 68,
+    "books_count": 128,
+    "isbn": 671027344,
+    "authors": "Stephen Chbosky",
+    "publication_year": 1999,
+    "title": "The Perks of Being a Wallflower",
+    "average_rating": 4.21,
+    "image_url": "https://images.gr-assets.com/books/1167352178m/22628.jpg"
+  },
+  {
+    "book_id": 69,
+    "books_count": 164,
+    "isbn": 7442912,
+    "authors": "Veronica Roth",
+    "publication_year": 2012,
+    "title": "Insurgent (Divergent, #2)",
+    "average_rating": 4.07,
+    "image_url": "https://images.gr-assets.com/books/1325667729m/11735983.jpg"
+  },
+  {
+    "book_id": 70,
+    "books_count": 224,
+    "isbn": 812550706,
+    "authors": "Orson Scott Card",
+    "publication_year": 1985,
+    "title": "Ender's Game (Ender's Saga, #1)",
+    "average_rating": 4.3,
+    "image_url": "https://images.gr-assets.com/books/1408303130m/375802.jpg"
+  },
+  {
+    "book_id": 71,
+    "books_count": 2618,
+    "isbn": 141439475,
+    "authors": "Mary Wollstonecraft Shelley, Percy Bysshe Shelley, Maurice Hindle",
+    "publication_year": 1818,
+    "title": "Frankenstein",
+    "average_rating": 3.75,
+    "image_url": "https://images.gr-assets.com/books/1381512375m/18490.jpg"
+  },
+  {
+    "book_id": 72,
+    "books_count": 289,
+    "isbn": 450040186,
+    "authors": "Stephen King",
+    "publication_year": 1977,
+    "title": "The Shining (The Shining #1)",
+    "average_rating": 4.17,
+    "image_url": "https://images.gr-assets.com/books/1353277730m/11588.jpg"
+  },
+  {
+    "book_id": 73,
+    "books_count": 161,
+    "isbn": 316068047,
+    "authors": "Stephenie Meyer",
+    "publication_year": 2008,
+    "title": "The Host (The Host, #1)",
+    "average_rating": 3.84,
+    "image_url": "https://images.gr-assets.com/books/1318009171m/1656001.jpg"
+  },
+  {
+    "book_id": 74,
+    "books_count": 187,
+    "isbn": 142402516,
+    "authors": "John Green",
+    "publication_year": 2005,
+    "title": "Looking for Alaska",
+    "average_rating": 4.09,
+    "image_url": "https://images.gr-assets.com/books/1394798630m/99561.jpg"
+  },
+  {
+    "book_id": 75,
+    "books_count": 193,
+    "isbn": "014028009X",
+    "authors": "Helen Fielding",
+    "publication_year": 1996,
+    "title": "Bridget Jones's Diary (Bridget Jones, #1)",
+    "average_rating": 3.75,
+    "image_url": "https://images.gr-assets.com/books/1292060045m/227443.jpg"
+  },
+  {
+    "book_id": 76,
+    "books_count": 1969,
+    "isbn": 141439661,
+    "authors": "Jane Austen, Tony Tanner, Ros Ballaster",
+    "publication_year": 1811,
+    "title": "Sense and Sensibility",
+    "average_rating": 4.06,
+    "image_url": "https://images.gr-assets.com/books/1397245675m/14935.jpg"
+  },
+  {
+    "book_id": 77,
+    "books_count": 138,
+    "isbn": 439244196,
+    "authors": "Louis Sachar, Louis Sachar",
+    "publication_year": 1998,
+    "title": "Holes (Holes, #1)",
+    "average_rating": 3.93,
+    "image_url": "https://images.gr-assets.com/books/1327781893m/38709.jpg"
+  },
+  {
+    "book_id": 78,
+    "books_count": 129,
+    "isbn": 307275558,
+    "authors": "Lauren Weisberger",
+    "publication_year": 2003,
+    "title": "The Devil Wears Prada (The Devil Wears Prada, #1)",
+    "average_rating": 3.7,
+    "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+  },
+  {
+    "book_id": 79,
+    "books_count": 1703,
+    "isbn": 143039954,
+    "authors": "Homer, Robert Fagles, E.V. Rieu, Frédéric Mugler, Bernard Knox",
+    "publication_year": -720,
+    "title": "The Odyssey",
+    "average_rating": 3.73,
+    "image_url": "https://images.gr-assets.com/books/1390173285m/1381.jpg"
+  },
+  {
+    "book_id": 80,
+    "books_count": 1708,
+    "isbn": 156012197,
+    "authors": "Antoine de Saint-Exupéry, Richard Howard, Dom Marcos Barbosa, Melina Karakosta",
+    "publication_year": 1946,
+    "title": "The Little Prince",
+    "average_rating": 4.28,
+    "image_url": "https://images.gr-assets.com/books/1367545443m/157993.jpg"
+  },
+  {
+    "book_id": 81,
+    "books_count": 92,
+    "isbn": "074324754X",
+    "authors": "Jeannette Walls",
+    "publication_year": 2005,
+    "title": "The Glass Castle",
+    "average_rating": 4.24,
+    "image_url": "https://images.gr-assets.com/books/1400930557m/7445.jpg"
+  },
+  {
+    "book_id": 82,
+    "books_count": 108,
+    "isbn": 385486804,
+    "authors": "Jon Krakauer",
+    "publication_year": 1996,
+    "title": "Into the Wild",
+    "average_rating": 3.94,
+    "image_url": "https://images.gr-assets.com/books/1403173986m/1845.jpg"
+  },
+  {
+    "book_id": 83,
+    "books_count": 525,
+    "isbn": 141439602,
+    "authors": "Charles Dickens, Richard Maxwell, Hablot Knight Browne",
+    "publication_year": 1859,
+    "title": "A Tale of Two Cities",
+    "average_rating": 3.81,
+    "image_url": "https://images.gr-assets.com/books/1344922523m/1953.jpg"
+  },
+  {
+    "book_id": 84,
+    "books_count": 176,
+    "isbn": "030734813X",
+    "authors": "Michael Crichton",
+    "publication_year": 1990,
+    "title": "Jurassic Park (Jurassic Park, #1)",
+    "average_rating": 3.96,
+    "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+  },
+  {
+    "book_id": 85,
+    "books_count": 81,
+    "isbn": 60256656,
+    "authors": "Shel Silverstein",
+    "publication_year": 1964,
+    "title": "The Giving Tree",
+    "average_rating": 4.38,
+    "image_url": "https://images.gr-assets.com/books/1174210942m/370493.jpg"
+  },
+  {
+    "book_id": 86,
+    "books_count": 158,
+    "isbn": 385338600,
+    "authors": "John Grisham",
+    "publication_year": 1989,
+    "title": "A Time to Kill",
+    "average_rating": 4.03,
+    "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png"
+  },
+  {
+    "book_id": 87,
+    "books_count": 109,
+    "isbn": 374500010,
+    "authors": "Elie Wiesel, Marion Wiesel",
+    "publication_year": 1958,
+    "title": "Night (The Night Trilogy #1)",
+    "average_rating": 4.3,
+    "image_url": "https://images.gr-assets.com/books/1473495285m/1617.jpg"
+  },
+  {
+    "book_id": 88,
+    "books_count": 178,
+    "isbn": "014241493X",
+    "authors": "John Green",
+    "publication_year": 2008,
+    "title": "Paper Towns",
+    "average_rating": 3.88,
+    "image_url": "https://images.gr-assets.com/books/1349013610m/6442769.jpg"
+  },
+  {
+    "book_id": 89,
+    "books_count": 129,
+    "isbn": 345418263,
+    "authors": "William Goldman",
+    "publication_year": 1973,
+    "title": "The Princess Bride",
+    "average_rating": 4.25,
+    "image_url": "https://images.gr-assets.com/books/1327903636m/21787.jpg"
+  },
+  {
+    "book_id": 90,
+    "books_count": 156,
+    "isbn": "014038572X",
+    "authors": "S.E. Hinton",
+    "publication_year": 1967,
+    "title": "The Outsiders",
+    "average_rating": 4.06,
+    "image_url": "https://images.gr-assets.com/books/1442129426m/231804.jpg"
+  },
+  {
+    "book_id": 91,
+    "books_count": 147,
+    "isbn": 385737947,
+    "authors": "James Dashner",
+    "publication_year": 2009,
+    "title": "The Maze Runner (Maze Runner, #1)",
+    "average_rating": 4.02,
+    "image_url": "https://images.gr-assets.com/books/1375596592m/6186357.jpg"
+  },
+  {
+    "book_id": 92,
+    "books_count": 124,
+    "isbn": 61234001,
+    "authors": "Steven D. Levitt, Stephen J. Dubner",
+    "publication_year": 2005,
+    "title": "Freakonomics: A Rogue Economist Explores the Hidden Side of Everything (Freakonomics, #1)",
+    "average_rating": 3.93,
+    "image_url": "https://images.gr-assets.com/books/1327909092m/1202.jpg"
+  },
+  {
+    "book_id": 93,
+    "books_count": 1350,
+    "isbn": 517189607,
+    "authors": "Frances Hodgson Burnett",
+    "publication_year": 1911,
+    "title": "The Secret Garden",
+    "average_rating": 4.12,
+    "image_url": "https://images.gr-assets.com/books/1327873635m/2998.jpg"
+  },
+  {
+    "book_id": 94,
+    "books_count": 555,
+    "isbn": 60531045,
+    "authors": "Gabriel García Márquez, Gregory Rabassa",
+    "publication_year": 1967,
+    "title": "One Hundred Years of Solitude",
+    "average_rating": 4.04,
+    "image_url": "https://images.gr-assets.com/books/1327881361m/320.jpg"
+  },
+  {
+    "book_id": 95,
+    "books_count": 2303,
+    "isbn": 375751513,
+    "authors": "Oscar Wilde, Jeffrey Eugenides",
+    "publication_year": 1891,
+    "title": "The Picture of Dorian Gray",
+    "average_rating": 4.06,
+    "image_url": "https://images.gr-assets.com/books/1424596966m/5297.jpg"
+  },
+  {
+    "book_id": 96,
+    "books_count": 133,
+    "isbn": 345803507,
+    "authors": "E.L. James",
+    "publication_year": 2012,
+    "title": "Fifty Shades Freed (Fifty Shades, #3)",
+    "average_rating": 3.88,
+    "image_url": "https://images.gr-assets.com/books/1336418837m/13536860.jpg"
+  },
+  {
+    "book_id": 97,
+    "books_count": 2207,
+    "isbn": 393970124,
+    "authors": "Bram Stoker, Nina Auerbach, David J. Skal",
+    "publication_year": 1897,
+    "title": "Dracula",
+    "average_rating": 3.98,
+    "image_url": "https://images.gr-assets.com/books/1387151694m/17245.jpg"
+  },
+  {
+    "book_id": 98,
+    "books_count": 209,
+    "isbn": 307269981,
+    "authors": "Stieg Larsson, Reg Keeland",
+    "publication_year": 2006,
+    "title": "The Girl Who Played with Fire (Millennium, #2)",
+    "average_rating": 4.22,
+    "image_url": "https://images.gr-assets.com/books/1351778881m/5060378.jpg"
+  },
+  {
+    "book_id": 99,
+    "books_count": 147,
+    "isbn": 1612130585,
+    "authors": "E.L. James",
+    "publication_year": 2011,
+    "title": "Fifty Shades Darker (Fifty Shades, #2)",
+    "average_rating": 3.87,
+    "image_url": "https://images.gr-assets.com/books/1358266080m/11857408.jpg"
+  }
+]
