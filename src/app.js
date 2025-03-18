@@ -8,10 +8,10 @@ const { sequelize } = require('./models');
 const bookRoutes = require('./routes/book.routes');
 const borrowingRoutes = require('./routes/borrowing.routes');
 const reportRoutes = require('./routes/report.routes');
-// Add this line with the other routes imports
+//
 const userRoutes = require('./routes/user.routes');
 
-// Add this line with the other routes
+//
 
 const app = express();
 

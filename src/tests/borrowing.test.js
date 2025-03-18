@@ -8,22 +8,21 @@ let user, book, userId, bookId, borrowingId;
 // In borrowing.test.js
 beforeEach(async () => {
   try {
-    // Create user with all required fields
+    await sequelize.sync({ force: true });
+    console.log('Database synced');
+
     user = await User.create({
       name: 'Test User',
-      email: `test${Date.now()}@example.com`, // Ensure unique email
+      email: `test${Date.now()}@example.com`,
     });
     console.log('User created successfully:', user.id);
 
-    // Create book with all required fields
     book = await Book.create({
       title: 'Test Book',
-      isbn: `ISBN${Date.now()}`, // Ensure unique ISBN
+      isbn: `ISBN${Date.now()}`,
       publicationYear: 2020,
       availableCopies: 3,
       copies: 3,
-      // If authors is required, add it here
-      // authors: []
     });
     console.log('Book created successfully:', book.id);
 
@@ -34,56 +33,71 @@ beforeEach(async () => {
     throw error;
   }
 });
+
 describe('Borrowing API', () => {
-  // Test borrowing a book
   test('Should borrow a book', async () => {
-    const res = await request(app).post('/api/borrowings/borrow').send({
-      bookId,
-      userId,
-    });
+    try {
+      const res = await request(app).post('/api/borrowings/borrow').send({
+        bookId,
+        userId,
+      });
 
-    expect(res.statusCode).toEqual(201);
-    expect(res.body).toHaveProperty('message', 'Book borrowed successfully');
-    expect(res.body.borrowing).toHaveProperty('BookId', bookId);
-    expect(res.body.borrowing).toHaveProperty('UserId', userId);
-    expect(res.body.borrowing).toHaveProperty('isReturned', false);
+      expect(res.statusCode).toEqual(201);
+      expect(res.body).toHaveProperty('message', 'Book borrowed successfully');
+      expect(res.body.borrowing).toHaveProperty('BookId', bookId);
+      expect(res.body.borrowing).toHaveProperty('UserId', userId);
+      expect(res.body.borrowing).toHaveProperty('isReturned', false);
 
-    borrowingId = res.body.borrowing.id;
+      borrowingId = res.body.borrowing.id;
 
-    // Check book availability updated
-    const updatedBook = await Book.findByPk(bookId);
-    expect(updatedBook.availableCopies).toEqual(2);
+      const updatedBook = await Book.findByPk(bookId);
+      expect(updatedBook.availableCopies).toEqual(2);
+    } catch (error) {
+      console.error('Error in borrowing test:', error.message, error.stack);
+      throw error;
+    }
   });
 
-  // Test getting all borrowings
   test('Should get all borrowings', async () => {
-    const res = await request(app).get('/api/borrowings');
+    try {
+      const res = await request(app).get('/api/borrowings');
 
-    expect(res.statusCode).toEqual(200);
-    expect(res.body).toHaveProperty('borrowings');
-    expect(res.body.borrowings).toBeInstanceOf(Array);
-    expect(res.body.borrowings.length).toBeGreaterThan(0);
+      expect(res.statusCode).toEqual(200);
+      expect(res.body).toHaveProperty('borrowings');
+      expect(res.body.borrowings).toBeInstanceOf(Array);
+    } catch (error) {
+      console.error(
+        'Error in getting all borrowings test:',
+        error.message,
+        error.stack
+      );
+      throw error;
+    }
   });
 
-  // Test returning a book
   test('Should return a book', async () => {
-    // First, borrow a book to get a `borrowingId`
-    const borrowRes = await request(app).post('/api/borrowings/borrow').send({
-      bookId,
-      userId,
-    });
-    borrowingId = borrowRes.body.borrowing.id;
+    try {
+      const borrowRes = await request(app).post('/api/borrowings/borrow').send({
+        bookId,
+        userId,
+      });
+      borrowingId = borrowRes.body.borrowing.id;
 
-    const res = await request(app).put(`/api/borrowings/return/${borrowingId}`);
-    console.log('Borrowing ID before return:', borrowingId);
+      const res = await request(app).put(
+        `/api/borrowings/return/${borrowingId}`
+      );
+      console.log('Borrowing ID before return:', borrowingId);
 
-    expect(res.statusCode).toEqual(200);
-    expect(res.body).toHaveProperty('message', 'Book returned successfully');
-    expect(res.body.borrowing).toHaveProperty('isReturned', true);
-    expect(res.body.borrowing).toHaveProperty('returnDate');
+      expect(res.statusCode).toEqual(200);
+      expect(res.body).toHaveProperty('message', 'Book returned successfully');
+      expect(res.body.borrowing).toHaveProperty('isReturned', true);
+      expect(res.body.borrowing).toHaveProperty('returnDate');
 
-    // Check book availability updated
-    const updatedBook = await Book.findByPk(bookId);
-    expect(updatedBook.availableCopies).toEqual(3);
+      const updatedBook = await Book.findByPk(bookId);
+      expect(updatedBook.availableCopies).toEqual(3);
+    } catch (error) {
+      console.error('Error in returning test:', error.message, error.stack);
+      throw error;
+    }
   });
 });

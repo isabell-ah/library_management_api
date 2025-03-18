@@ -7,7 +7,7 @@ module.exports = (sequelize, DataTypes) => {
     },
     title: {
       type: DataTypes.STRING,
-      allowNull: false, // Title must not be null
+      allowNull: false,
       defaultValue: 'TBA',
       validate: {
         notEmpty: true,
@@ -27,7 +27,7 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.INTEGER,
       allowNull: false,
       validate: {
-        min: -3000, // Allow books from ancient history
+        min: -3000,
         max: new Date().getFullYear(),
       },
     },
@@ -40,7 +40,7 @@ module.exports = (sequelize, DataTypes) => {
     rating: {
       type: DataTypes.FLOAT,
       allowNull: true,
-      // defaultValue: 3, // Default rating
+      defaultValue: 3,
       validate: {
         min: 0,
         max: 5,

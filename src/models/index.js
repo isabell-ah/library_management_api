@@ -1,7 +1,6 @@
 const { sequelize } = require('../config/database');
 const { DataTypes } = require('sequelize');
 
-// Import models
 const Book = require('./book.model')(sequelize, DataTypes);
 const Author = require('./author.model')(sequelize, DataTypes);
 const User = require('./user.model')(sequelize, DataTypes);

@@ -12,9 +12,8 @@ const seedUsers = async () => {
 const seedBooksAndAuthors = async () => {
   console.log('Seeding books and authors...');
 
-  const jsonPath = path.join(__dirname, '../../data/Books.json'); // ✅ Load JSON file
+  const jsonPath = path.join(__dirname, '../../data/Books.json');
 
-  // Read and parse JSON file
   const rawData = fs.readFileSync(jsonPath, 'utf-8');
   const booksData = JSON.parse(rawData);
 

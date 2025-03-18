@@ -57,7 +57,7 @@ describe('Book API', () => {
       .put(`/api/books/${bookId}`)
       .send({
         title: 'Updated Test Book',
-        isbn: '0987654321', // ✅ Changed from `ISBN` to `isbn`
+        isbn: '0987654321',
         publicationYear: 2020,
         authors: ['Updated Author'],
         copies: 3,
