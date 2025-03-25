@@ -23,7 +23,7 @@
 ## 3. Reports
 ○ List overdue books with user details and days overdue.
 
-#Technical Requirements
+# Technical Requirements
 ## 1. Node.js: Use the latest version of Node.js.
 ## 2. Express.js: The API must be implemented using Express.js.
 ## 3. Database ORM: Use an ORM (we recommend Sequelize) to manage your database
@@ -34,9 +34,11 @@ functionality.
 seeds the database with the books.csv sample books.
 ● Standardized Commands: Ensure that the application can be set up and started with
 these commands:
+
     ○ _npm install_ – to install dependencies.
     ○ _npm run migrate_ – to create and seed the database.
     ○ _npm start_ – to start the API server.
     ○ _npm test_ – to run automated tests.
+    
 ## 6. RESTful Standards: Follow RESTful API standards in your design.
 ## 7. Valid
