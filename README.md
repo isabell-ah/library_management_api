@@ -1,4 +1,4 @@
-# A Library API
+# A Library API - Using RESTful API standards
 ## 1.Book Management
 ○ Add a new book with the following fields:
     ■ Title
@@ -40,5 +40,4 @@ these commands:
     ○ _npm start_ – to start the API server.
     ○ _npm test_ – to run automated tests.
     
-## 6. RESTful Standards: Follow RESTful API standards in your design.
-## 7. Valid
+
