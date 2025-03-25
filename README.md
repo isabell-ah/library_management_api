@@ -1,6 +1,7 @@
 # A Library API - Using RESTful API standards
 ## 1.Book Management
 ○ Add a new book with the following fields:
+
     ■ Title
     ■ ISBN
     ■ Publication Year
@@ -14,10 +15,12 @@
 ○ Use the following sample books dataset: Books.csv
 ## 2. Borrowing and Returning Books
 ○ Borrow a book:
+
     ■ Check if the book is available.
     ■ Track the borrowing user (use a simple users table).
     ■ Set a due date for returning the book (default 14 days).
 ○ Return a book:
+
     ■ Update the book’s availability.
     ■ Track late returns (if returned after the due date).
 ## 3. Reports
